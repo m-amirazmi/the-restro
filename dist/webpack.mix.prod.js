@@ -1,0 +1,1 @@
+"use strict";var mix=require("laravel-mix");mix.browserSync({proxy:"my-domain.test"}).sass("resources/sass/app.scss","public/css");
