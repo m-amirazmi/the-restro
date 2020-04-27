@@ -11019,6 +11019,12 @@ a.text-dark:focus {
   }
 }
 
+@media (min-width: 0px) and (max-width: 767px) {
+  #top-section .container .row .top-img {
+    position: absolute;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11189,6 +11195,12 @@ body {
   transform: translateY(-80px);
   height: 100%;
   z-index: -1;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #top-section .container .row .top-img .top-img {
+    position: absolute;
+  }
 }
 
 #top-section .container .row .top-img img {

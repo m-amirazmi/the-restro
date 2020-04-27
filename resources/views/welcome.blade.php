@@ -9,9 +9,9 @@
             <h3>Discover your taste</h3>
           </div>
           <div class="top-title"><h2>Eat Healthy and Natural Food</h2></div>
-          <div class="top-button">
+          <div class="top-button  ">
             <a href="/menu" class="main-btn">Discover Menu </a>
-            <div class="circle-button"><i class="fas fa-caret-right"></i></div>
+            <div class="circle-button d-none d-sm-none"><i class="fas fa-caret-right"></i></div>
           </div>
           <div class="top-socmed">
             <hr>
@@ -20,7 +20,7 @@
             <a class="socmed-btn" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
           </div>
         </div>
-        <div class="col-md-7 top-img">
+        <div class="col-md-7 top-img d-none d-sm-block">
           <img src="/img/salmonsalad.jpg" alt="">
         </div>
       </div>
