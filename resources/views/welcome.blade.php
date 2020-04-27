@@ -142,7 +142,7 @@
         <div class="row">
           <div class="col-md-6 main-course">
             <div class="main-course-img">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a7/58/20/salmon-sashimi.jpg" alt="">
+              <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
             </div>
             <div class="main-course-img-bg">
               <h2>MAIN COURSE</h2>
@@ -150,7 +150,7 @@
           </div>
           <div class="col-md-6 main-course">
             <div class="main-course-img">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a7/58/20/salmon-sashimi.jpg" alt="">
+              <img src="https://www.tasteofhome.com/wp-content/uploads/2017/10/exps6498_MRR133247D07_30_5b_WEB-2.jpg" alt="">
             </div>
             <div class="main-course-img-bg">
               <h2>SALAD</h2>
@@ -160,7 +160,7 @@
         <div class="row">
           <div class="col-md-4 side-course">
             <div class="side-course-img">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a7/58/20/salmon-sashimi.jpg" alt="">
+              <img src="https://www.recipetineats.com/wp-content/uploads/2016/10/Smoked-Salmon-Bites_2.jpg" alt="">
             </div>
             <div class="side-course-img-bg">
               <h3>APPETIZER</h3>
@@ -168,7 +168,7 @@
           </div>
           <div class="col-md-4 side-course">
             <div class="side-course-img">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a7/58/20/salmon-sashimi.jpg" alt="">
+              <img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/coffee_terrine.jpg" alt="">
             </div>
             <div class="side-course-img-bg">
               <h3>DESSERTS</h3>
@@ -176,13 +176,79 @@
           </div>
           <div class="col-md-4 side-course">
             <div class="side-course-img">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a7/58/20/salmon-sashimi.jpg" alt="">
+              <img src="https://www.simplyorganic.com/community/images/made/bf57b6a338206c8d/Simply-Organic-Entree-beed-600x600_630_630_s_c1.jpg" alt="">
             </div>
             <div class="side-course-img-bg"><h3>ENTREES</h3></div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+  <section id="reservation-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 reservation-detail">
+          <div class="reservation-title">
+            <div class="reservation-sub">
+              <h4>Let's</h4>
+              <hr>
+            </div>
+            <h2>Book a Table</h2>
+          </div>
+          <div class="reservation-form">
+            <form action="" method="POST">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="date">Date: </label>
+                    <input type="text" name="date" class="form-control" id="date" placeholder="28/04/2020">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <label for="time">Time: </label>
+                    <input type="text" name="time" class="form-control" id="time" placeholder="2.18AM">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <label for="guest">Guest: </label>
+                    <select class="form-control" id="guest" name="guest">
+                      <option value="1">1 People</option>
+                      <option value="2">2 People</option>
+                      <option value="3" selected>3 People</option>
+                      <option value="4">4 People</option>
+                      <option value="5">5 People</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" class="form-control" id="fname" placeholder="Amir">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="johndoe@gmail.com">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 reservation-img">
+          <img src="/img/reserveimg.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="footer">
+    <h6>Copyright&copy; 2020 The Restro by Muhamad Amir</h6>
   </section>
   
 @endsection
