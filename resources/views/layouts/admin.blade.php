@@ -6,7 +6,7 @@
       <title>The Restro</title>
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"> 
       <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="/css/app.css">
       <script src="https://kit.fontawesome.com/ce9a652be3.js" crossorigin="anonymous"></script>
     </head>
     <body>

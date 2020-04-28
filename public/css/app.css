@@ -11818,3 +11818,29 @@ body {
   color: #fff;
 }
 
+#menu .container .admin-title {
+  margin-top: 50px;
+  position: relative;
+}
+
+#menu .container .admin-title h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#menu .container .admin-title hr {
+  margin: 0;
+  position: absolute;
+  left: -170px;
+  top: 27px;
+  width: 160px;
+  height: 3px;
+  background: #fc4a00;
+  border-radius: 500px;
+  border: none;
+}
+
+#menu .container .menu-table .table {
+  font-size: 1rem;
+}
+

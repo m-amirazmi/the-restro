@@ -25,3 +25,12 @@ Route::get('/contact', function () {
 Route::get('/admin', function () {
     return view('admin/dashboard');
 });
+Route::get('/admin/menu', function () {
+    return view('admin/menu');
+});
+Route::get('/admin/customer', function () {
+    return view('admin/customer');
+});
+Route::get('/admin/staff', function () {
+    return view('admin/staff');
+});
