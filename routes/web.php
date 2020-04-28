@@ -22,3 +22,6 @@ Route::get('/menu', function () {
 Route::get('/contact', function () {
     return view('main-pages/contact');
 });
+Route::get('/admin', function () {
+    return view('admin/dashboard');
+});
