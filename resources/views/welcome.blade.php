@@ -150,7 +150,7 @@
           </div>
           <div class="col-md-6 col-sm-10 main-course">
             <div class="main-course-img">
-              <img src="https://www.tasteofhome.com/wp-content/uploads/2017/10/exps6498_MRR133247D07_30_5b_WEB-2.jpg" alt="">
+              <img src="/img/exps6498_MRR133247D07_30_5b_WEB-2.jpg" alt="">
             </div>
             <div class="main-course-img-bg">
               <h2>SALAD</h2>
@@ -160,7 +160,7 @@
         <div class="row">
           <div class="col-md-4 col-sm-10 side-course">
             <div class="side-course-img">
-              <img src="https://www.recipetineats.com/wp-content/uploads/2016/10/Smoked-Salmon-Bites_2.jpg" alt="">
+              <img src="/img/Smoked-Salmon-Bites_2.jpg" alt="">
             </div>
             <div class="side-course-img-bg">
               <h3>APPETIZER</h3>
@@ -168,7 +168,7 @@
           </div>
           <div class="col-md-4 col-sm-10 side-course">
             <div class="side-course-img">
-              <img src="https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/coffee_terrine.jpg" alt="">
+              <img src="/img/coffee_terrine.jpg" alt="">
             </div>
             <div class="side-course-img-bg">
               <h3>DESSERTS</h3>
@@ -176,7 +176,7 @@
           </div>
           <div class="col-md-4 col-sm-10 side-course">
             <div class="side-course-img">
-              <img src="https://www.simplyorganic.com/community/images/made/bf57b6a338206c8d/Simply-Organic-Entree-beed-600x600_630_630_s_c1.jpg" alt="">
+              <img src="/img/Simply-Organic-Entree-beed-600x600_630_630_s_c1.jpg" alt="">
             </div>
             <div class="side-course-img-bg"><h3>ENTREES</h3></div>
           </div>
