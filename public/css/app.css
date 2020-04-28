@@ -11687,6 +11687,7 @@ body {
 }
 
 #sidenav {
+  border-right: #fc4a00 3px solid;
   height: 100%;
   width: 200px;
   position: fixed;

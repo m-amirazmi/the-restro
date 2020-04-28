@@ -28,9 +28,21 @@ Route::get('/admin', function () {
 Route::get('/admin/menu', function () {
     return view('admin/menu');
 });
+Route::get('/admin/menu/create', function () {
+    return view('admin/menu-create');
+});
+Route::get('/admin/menu/edit', function () {
+    return view('admin/menu-edit');
+});
 Route::get('/admin/customer', function () {
     return view('admin/customer');
 });
 Route::get('/admin/staff', function () {
     return view('admin/staff');
+});
+Route::get('/admin/staff/create', function () {
+    return view('admin/staff-create');
+});
+Route::get('/admin/staff/edit', function () {
+    return view('admin/staff-edit');
 });

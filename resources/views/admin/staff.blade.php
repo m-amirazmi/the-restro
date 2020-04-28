@@ -30,8 +30,8 @@
               <td>01119821105</td>
               <td>Master</td>
               <td>29/04/2020 1.04am</td>
-              <td><a href="/admin/menu/edit"><i class="fas fa-edit fa-lg"></i></a></td>
-              <td><a href="/admin/menu/delete"><i class="fas fa-trash-alt fa-lg"></i></a></td>
+              <td><a href="/admin/staff/edit"><i class="fas fa-edit fa-lg"></i></a></td>
+              <td><a href="/admin/staff/delete"><i class="fas fa-trash-alt fa-lg"></i></a></td>
             </tr>
            
           </tbody>
