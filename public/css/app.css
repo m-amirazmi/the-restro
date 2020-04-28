@@ -11686,7 +11686,7 @@ body {
      object-fit: cover;
 }
 
-.sidenav {
+#sidenav {
   height: 100%;
   width: 200px;
   position: fixed;
@@ -11698,7 +11698,48 @@ body {
   padding-top: 20px;
 }
 
-.sidenav a {
+#sidenav .side-title h2 {
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#sidenav .side-title h2 span {
+  color: #fc4a00;
+}
+
+#sidenav .side-title hr {
+  background: #fc4a00;
+  width: 100px;
+  height: 3px;
+  border: none;
+}
+
+#sidenav .side-navigation li {
+  padding-left: 20px;
+}
+
+#sidenav .side-navigation li a {
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+#sidenav .side-navigation li a:hover {
+  color: #fc4a00;
+}
+
+#sidenav .side-navigation .nav-link {
+  display: block;
+  padding: 0.5rem 0rem;
+}
+
+#sidenav .side-navigation .dropdown-menu {
+  background: #5f5e63;
+  padding: 0;
+}
+
+#sidenav .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 1rem;
@@ -11706,11 +11747,11 @@ body {
   display: block;
 }
 
-.sidenav a:hover {
+#sidenav .sidenav a:hover {
   color: #fc4a00;
 }
 
-.main {
+.admin-main {
   margin-left: 200px;
   /* Same as the width of the sidenav */
   font-size: 28px;
@@ -11728,7 +11769,52 @@ body {
   }
 }
 
-.dropdown-menu {
-  background: #5f5e63;
+#dashboard .container .admin-title {
+  margin-top: 50px;
+  position: relative;
+}
+
+#dashboard .container .admin-title h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#dashboard .container .admin-title hr {
+  margin: 0;
+  position: absolute;
+  left: -170px;
+  top: 27px;
+  width: 160px;
+  height: 3px;
+  background: #fc4a00;
+  border-radius: 500px;
+  border: none;
+}
+
+#dashboard .container .dashboard-content {
+  margin: 100px auto;
+  height: 400px;
+  width: 1000px;
+}
+
+#dashboard .container .dashboard-content .dashboard-menu .d-menu-details {
+  height: 100%;
+  border-radius: 20px;
+  margin-right: 10px;
+  background: #fc4a00;
+}
+
+#dashboard .container .dashboard-content .dashboard-menu .d-menu-details .d-menu-numbers {
+  font-weight: 500;
+  font-size: 15rem;
+  text-align: center;
+  padding: 20px;
+}
+
+#dashboard .container .dashboard-content .dashboard-menu .d-menu-details .d-menu-detail {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
 }
 

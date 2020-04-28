@@ -1,41 +1,49 @@
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: $secondary-color;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
+#dashboard {
+    .container {
+        .admin-title {
+            margin-top: 50px;
+            position: relative;
+            h2 {
+                font-size: 3rem;
+                font-weight: 600;
+            }
+            hr {
+                margin: 0;
+                position: absolute;
+                left: -170px;
+                top: 27px;
+                width: 160px;
+                height: 3px;
+                background: $primary-color;
+                border-radius: 500px;
+                border: none;
+            }
+        }
+        .dashboard-content {
+            margin: 100px auto;
+            height: 400px;
+            width: 1000px;
+            .dashboard-menu {
+                .d-menu-details {
+                    height: 100%;
+                    border-radius: 20px;
+                    margin-right: 10px;
+                    background: $primary-color;
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 1rem;
-    color: #fff;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: $primary-color;
-}
-
-.main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
+                    .d-menu-numbers {
+                        font-weight: 500;
+                        font-size: 15rem;
+                        text-align: center;
+                        padding: 20px;
+                    }
+                    .d-menu-detail {
+                        padding-bottom: 20px;
+                        text-align: center;
+                        font-size: 3rem;
+                        color: #fff;
+                    }
+                }
+            }
+        }
     }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
-.dropdown-menu {
-    background: $grey-1;
 }
