@@ -11019,12 +11019,6 @@ a.text-dark:focus {
   }
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
-  #top-section .container .row .top-img {
-    position: absolute;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -11547,6 +11541,26 @@ body {
   font-weight: 600;
 }
 
+#reservation-section .container .row .reservation-detail .reservation-form a {
+  text-align: center;
+  display: block;
+  color: #fff;
+  background: #fc4a00;
+  font-size: 1rem;
+  padding: 15px 30px;
+  margin: 20px auto;
+  transition: all 0.2s ease-in-out;
+  border: 3px solid transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#reservation-section .container .row .reservation-detail .reservation-form a:hover {
+  color: #fc4a00;
+  background: transparent;
+  border: #fc4a00 3px solid;
+}
+
 #reservation-section .container .row .reservation-img {
   height: 350px;
   width: 100%;
@@ -11570,5 +11584,105 @@ body {
 #footer h6 {
   margin: 0;
   padding: 20px;
+}
+
+#menu-top {
+  position: relative;
+  height: 40vh;
+}
+
+#menu-top .menu-top-img {
+  top: -75px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #2f2838;
+  position: absolute;
+}
+
+#menu-top .menu-top-img img {
+  width: 100%;
+  height: 125%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#menu-body {
+  margin: 20px 0;
+}
+
+#menu-body .menu-title {
+  position: relative;
+  text-align: center;
+}
+
+#menu-body .menu-title h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+}
+
+#menu-body .menu-title h2 span {
+  color: #fc4a00;
+}
+
+#menu-body .menu-title .hr1 {
+  margin: 0;
+  position: absolute;
+  left: 310px;
+  top: 30px;
+  width: 160px;
+  height: 2px;
+  background: #fc4a00;
+  border-radius: 500px;
+  border: none;
+}
+
+#menu-body .menu-title .hr2 {
+  margin: 0;
+  position: absolute;
+  right: 310px;
+  top: 30px;
+  width: 160px;
+  height: 2px;
+  background: #fc4a00;
+  border-radius: 500px;
+  border: none;
+}
+
+#menu-body .menu-content .courses {
+  margin: 20px 0;
+  position: relative;
+}
+
+#menu-body .menu-content .courses h2 {
+  font-weight: 600;
+}
+
+#menu-body .menu-content .courses hr {
+  margin: 0;
+  position: absolute;
+  left: -175px;
+  top: 20px;
+  width: 160px;
+  height: 2px;
+  background: #fc4a00;
+  border-radius: 500px;
+  border: none;
+}
+
+#menu-body .menu-content .courses .course-img {
+  height: 300px;
+}
+
+#menu-body .menu-content .courses .course-img img {
+  height: 50%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 

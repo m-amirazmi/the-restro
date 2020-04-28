@@ -12,6 +12,9 @@
     <body>
     @include('shared/navbar')
       @yield('content')
+      <section id="footer">
+        <h6>Copyright&copy; 2020 The Restro by Muhamad Amir</h6>
+      </section>
     @include('shared/bootstrapjs')
     </body>
 </html>

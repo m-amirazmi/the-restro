@@ -466,6 +466,26 @@ body {
                         }
                     }
                 }
+                .reservation-form {
+                    a {
+                        text-align: center;
+                        display: block;
+                        color: #fff;
+                        background: $primary-color;
+                        font-size: 1rem;
+                        padding: 15px 30px;
+                        margin: 20px auto;
+                        transition: all 0.2s ease-in-out;
+                        border: 3px solid transparent;
+                        font-weight: 600;
+                        cursor: pointer;
+                        &:hover {
+                            color: $primary-color;
+                            background: transparent;
+                            border: $primary-color 3px solid;
+                        }
+                    }
+                }
             }
             .reservation-img {
                 height: 350px;
