@@ -49,7 +49,7 @@
             </div>
           </div>
         </div>
-        {{Form::submit('Submit', ['class'=>'btn btn-primary'])}}
+        {{Form::submit('Add Menu', ['class'=>'btn btn-danger'])}}
       {!! Form::close() !!}
     </div>
   </section>

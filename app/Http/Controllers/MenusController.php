@@ -18,22 +18,11 @@ class MenusController extends Controller
         return view('admin.menu')->with('menus', $menus);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         return view('admin.menu-create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         $this->validate($request, [
@@ -53,38 +42,29 @@ class MenusController extends Controller
         return redirect('/admin/menu');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
-    {
-        return view('admin/menu-edit');
+    {   
+        $menu = Menu::find($id);
+        return view('admin.menu-edit')->with('menu', $menu);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'category' => ['required','string'],
+            'name' => ['required','string'],
+            'price' => ['required','string'],
+            'img' => ['required','string'],
+            'desc' => ['required','string']
+        ]);
+        $menu = Menu::find($id);
+        $menu->category = $request->input('category');
+        $menu->name = $request->input('name');
+        $menu->price = $request->input('price');
+        $menu->img = $request->input('img');
+        $menu->desc = $request->input('desc');
+        $menu->save();
+        return redirect('/admin/menu/');
     }
 
     /**

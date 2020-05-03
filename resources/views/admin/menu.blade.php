@@ -29,7 +29,7 @@
                 <td>{{$menu->category}}</td>
                 <td>{{$menu->img}}</td>
                 <td>{{$menu->created_at}}</td>
-                <td><a href="/admin/menu/edit"><i class="fas fa-edit fa-lg"></i></a></td>
+                <td><a href="/admin/menu/{{$menu->id}}/edit"><i class="fas fa-edit fa-lg"></i></a></td>
                 <td><a href="/admin/menu/delete"><i class="fas fa-trash-alt fa-lg"></i></a></td>
               </tr>
               @endforeach
