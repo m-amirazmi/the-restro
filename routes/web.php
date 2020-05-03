@@ -12,31 +12,27 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Static Pages
+Route::get('/', 'StaticPagesController@index');
+Route::post('/', 'StaticPagesController@customerStore');
+Route::get('/menu','StaticPagesController@menu');
+Route::get('/contact', 'StaticPagesController@contact');
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/menu', function () {
-    return view('main-pages/menu');
-});
-Route::get('/contact', function () {
-    return view('main-pages/contact');
-});
+// Admin Dashboard
 Route::get('/admin', function () {
     return view('admin/dashboard');
 });
-Route::get('/admin/menu', function () {
-    return view('admin/menu');
-});
-Route::get('/admin/menu/create', function () {
-    return view('admin/menu-create');
-});
-Route::get('/admin/menu/edit', function () {
-    return view('admin/menu-edit');
-});
-Route::get('/admin/customer', function () {
-    return view('admin/customer');
-});
+
+// Admin Menu
+Route::get('/admin/menu', 'MenusController@index');
+Route::get('/admin/menu/create', 'MenusController@create');
+Route::post('/admin/menu', 'MenusController@store');
+Route::get('/admin/menu/edit', 'MenusController@edit');
+
+// Admin Customer
+Route::get('/admin/customer', 'CustomersController@index');
+
+// Admin Staff
 Route::get('/admin/staff', function () {
     return view('admin/staff');
 });

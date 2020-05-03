@@ -196,7 +196,7 @@
             <h2>Book a Table</h2>
           </div>
           <div class="reservation-form">
-            <form action="" method="POST">
+            <form action="/" method="POST">
               <div class="row">
                 <div class="col">
                   <div class="form-group">
@@ -213,7 +213,7 @@
                 <div class="col">
                   <div class="form-group">
                     <label for="guest">Guest: </label>
-                    <select class="form-control" id="guest" name="guest">
+                    <select class="form-control" id="guest" name="guests">
                       <option value="1">1 People</option>
                       <option value="2">2 People</option>
                       <option value="3" selected>3 People</option>
