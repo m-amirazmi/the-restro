@@ -29,6 +29,7 @@ Route::get('/admin/menu/create', 'MenusController@create');
 Route::post('/admin/menu', 'MenusController@store');
 Route::get('/admin/menu/{id}/edit', 'MenusController@edit');
 Route::put('/admin/menu/{id}', 'MenusController@update');
+Route::delete('/admin/menu/{id}/delete', 'MenusController@delete');
 
 // Admin Customer
 Route::get('/admin/customer', 'CustomersController@index');

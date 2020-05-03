@@ -30,7 +30,13 @@
                 <td>{{$menu->img}}</td>
                 <td>{{$menu->created_at}}</td>
                 <td><a href="/admin/menu/{{$menu->id}}/edit"><i class="fas fa-edit fa-lg"></i></a></td>
-                <td><a href="/admin/menu/delete"><i class="fas fa-trash-alt fa-lg"></i></a></td>
+                <td>
+                  <a href="#" onclick="event.preventDefault();
+                  document.getElementById('delete-item-{{$menu->id}}').submit();"><i class="far fa-trash-alt"></i></a>
+                    <form id="delete-item-{{$menu->id}}" action="/admin/menu/{{$menu->id}}/delete" method="POST" style="display: none;">
+                        @method('DELETE')
+                        @csrf
+                    </form></td>
               </tr>
               @endforeach
           </tbody>
